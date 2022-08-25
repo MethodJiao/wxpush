@@ -6,4 +6,4 @@
 
 2.获取token 写到send_notice函数token变量上
 
-3.运行pushtowx
+3.运行pushtowx 会自动爬 http://www.nmc.cn/publish/forecast/ABJ/chaoyang.html 中央气象局
