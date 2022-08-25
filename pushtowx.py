@@ -4,7 +4,7 @@ import time
 
 
 def send_notice(content):
-    token = "e12929d5b9a8485697acc3347a10edef"
+    token = "token写这里"
     title = "近期有降雨"
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response = requests.request("GET", url)
