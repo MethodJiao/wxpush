@@ -26,6 +26,7 @@ def dayinfo(day_hour_weather_collect, text_time, text_precipitation) -> str:
             + text_precipitation
             + onehour_info[2].getText()
         )
+        print(text_time, allday_info)
 
     if israin:
         send_info = ""
